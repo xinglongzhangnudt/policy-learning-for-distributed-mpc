@@ -18,11 +18,30 @@ The tutorials lead you through implementing the code files uploaded.
 
 ## Dependencies
 
-There is no dependency for `DSLC_training' in Matlab. As for `DSLC_xtdrone', please follow the instructions in [XTDrone project](https://github.com/robin-shaun/XTDrone/blob/master) to complete the environment installation and basic configuration.
+There is no dependency for `DSLC_training' in Matlab'. As for `DSLC_xtdrone', please follow the instructions in [XTDrone project](https://github.com/robin-shaun/XTDrone/blob/master) to complete the environment installation and basic configuration.
 
 ## Run for DSLC_xtdrone
 
-To set up your python environment to run the code in this repository, follow the instructions below.
+To run the code in this repository, follow the instructions below.
+
+1.roslaunch multi_vehicle.launch
+obtain the position information of drones. Replace 6 with the number in the name of the selected file folder.
+2.python3 get_local_pose.py iris 6
+build the communication network among drones
+3.bash multi_vehicle_communication.sh
+keyboard control code
+4.python3 multirotor_keyboard_control_promotion.py
+use keyboard to control all drones to take off and press ‘s’ to hover after a desired height. Then press ‘g’ to enter leader control mode. 
+5.bash run_formation_promotion.sh
+Note: When the formation group script is running and the drones are stationary, switch to the keyboard control terminal to press ‘w’ to give leader a specified velocity for flight in formation group. Until the drones achieve formation in group, press ‘f’ or ‘h’ to turn or press number 0-9 to change the formation when the drones are running.
+The baseline script is for comparison with formation script in performance of running straight line with variable velocity.
+5.bash run_formation_baseline.sh
+The following script is for plot the information of drones such as error,position and etc.
+6.python3 draw_figure.py
+
+
+
+
 1. Create (and activate) a new environment with Python 3.6.
 
 	- __Linux__ or __Mac__: 
