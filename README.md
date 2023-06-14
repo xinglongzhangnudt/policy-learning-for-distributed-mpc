@@ -18,7 +18,7 @@ The tutorials lead you through implementing the code files uploaded.
 
 ## Dependencies
 
-There is no dependency for `DSLC_training' within Matlab. As for `DSLC_xtdrone', please follow the instructions in [XTDrone project](https://github.com/robin-shaun/XTDrone/blob/master) to complete the environment installation and basic configuration.
+There is no dependency for `DSLC_training` within Matlab. As for `DSLC_xtdrone`, please follow the instructions in [XTDrone project](https://github.com/robin-shaun/XTDrone/blob/master) to complete the environment installation and basic configuration.
 
 ## Run DSLC_xtdrone
 
