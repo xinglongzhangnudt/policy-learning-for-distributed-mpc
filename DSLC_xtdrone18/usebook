@@ -1,0 +1,28 @@
+%% enter the catalog of the file that will be utilized 
+%% run the command sequentially
+
+% load worlds and the drones
+1.roslaunch multi_vehicle.launch 
+
+% obtain the position information of drones
+2.python3 get_local_pose.py iris 18
+
+% build the communication network among drones
+3.bash multi_vehicle_communication.sh
+
+% keyboard control code
+4.python3 multirotor_keyboard_control_promotion.py 
+% use keyboard to control all drones to take off and press s to hover after a desired height.Then press g to enter leader control mode.
+
+5.bash run_formation_promotion.sh 
+%When the script has been launched, then switch to the keyboard control code, pressing f or h can achieve turning in 6 drones formation. Moreover, pressing number 0-9 can change the formation. 
+
+5.bash run_formation_baseline.sh
+
+%Note:
+% When the run_formation_promotion script is running and the drones are stationary, switch to the keyboard control terminal to press w to give leader a specified velocity for formation flight. Turning and formation transformation can also be achieved when the drones are running.
+% The run_formation_baseline script is for comparison with run_formation_promotion script in performance of running straight line at variable velocity.
+
+% The following script is for plot the information of drones such as error,position and etc.
+6.python3 draw_figure.py
+
