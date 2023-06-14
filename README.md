@@ -45,7 +45,8 @@ To run the code in this repository, follow the instructions below.
     *Use the keyboard to control all drones to take off and press ‘s’ to hover after a desired height. Then press ‘g’ to enter leader control mode.
    
 7. Run the DSLC code for formation control.
-    ```bash run_formation_promotion.sh
+    ```bash
+    run_formation_promotion.sh
       ```
    *Note: When the script is running, and the drones are stationary, switch to the keyboard control terminal to press ‘w’ to give the leader a specified velocity. After the drones achieve the specified formation, press ‘f’ or ‘h’ to turn or press numbers 0-9 to change the formation.
 
