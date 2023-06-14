@@ -13,8 +13,8 @@ The tutorials lead you through implementing the code files uploaded.
 
 * DSLC_training: Implement the code to verify the convergence condition of actor-critic learning and the closed-stability condition under actor-critic learning in the receding horizon control framework.
 * DSLC_xtdrone: Deploy the control policy to control a number of multirotor drones in the Gazebo.
-  * **DSLC_xtdrone6**: Control 6 multirotor drones to realize formation control and transformation.
-  * **DSLC_xtdrone18**: Control 18 multirotor drones to realize formation control and transformation.
+  * DSLC_xtdrone6: Control 6 multirotor drones to realize formation control and transformation.
+  * DSLC_xtdrone18: Control 18 multirotor drones to realize formation control and transformation.
 ### Labs / Projects
 
 The labs and projects can be found below.  All of the projects use rich simulation environments from [Unity ML-Agents](https://github.com/Unity-Technologies/ml-agents). In the [Deep Reinforcement Learning Nanodegree](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893) program, you will receive a review of your project.  These reviews are meant to give you personalized feedback and to tell you what can be improved in your code.
