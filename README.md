@@ -47,10 +47,9 @@ To run the code in this repository, follow the instructions below.
 7. Run the DSLC code for formation control.
     ```bash run_formation_promotion.sh
       ```
-   *Note: When the script is running, and the drones are in stationary, switch to the keyboard control terminal to press ‘w’ to give the leader a specified velocity. After the drones achieve the specified formation, press ‘f’ or ‘h’ to turn or press number 0-9 to change the formation when the drones are running.
-The baseline script is for comparison with the formation script in the performance of running a straight line with variable velocity.
+   *Note: When the script is running, and the drones are stationary, switch to the keyboard control terminal to press ‘w’ to give the leader a specified velocity. After the drones achieve the specified formation, press ‘f’ or ‘h’ to turn or press numbers 0-9 to change the formation.
 
-8. run the baseline controller for comparison.
+8. run the baseline controller for comparison  in a straight-line formation scenario.
     ```bash
     run_formation_baseline.sh
     ```
