@@ -3,7 +3,7 @@
 
 ### Introduction
 
-For this project, 
+For this project, you will run the codes in the Matlab environment. The codes verify the convergence condition of actor-critic learning and the closed-stability condition under actor-critic learning in the receding horizon control framework.
 
 ### Running the code
 
