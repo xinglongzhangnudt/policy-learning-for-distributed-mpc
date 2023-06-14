@@ -20,24 +20,33 @@ The tutorials lead you through implementing the code files uploaded.
 
 There is no dependency for `DSLC_training' in Matlab'. As for `DSLC_xtdrone', please follow the instructions in [XTDrone project](https://github.com/robin-shaun/XTDrone/blob/master) to complete the environment installation and basic configuration.
 
-## Run for DSLC_xtdrone
+## Run DSLC_xtdrone
 
 To run the code in this repository, follow the instructions below.
 
-1.roslaunch multi_vehicle.launch
-obtain the position information of drones. Replace 6 with the number in the name of the selected file folder.
-2.python3 get_local_pose.py iris 6
-build the communication network among drones
-3.bash multi_vehicle_communication.sh
-keyboard control code
-4.python3 multirotor_keyboard_control_promotion.py
-use keyboard to control all drones to take off and press ‘s’ to hover after a desired height. Then press ‘g’ to enter leader control mode. 
-5.bash run_formation_promotion.sh
-Note: When the formation group script is running and the drones are stationary, switch to the keyboard control terminal to press ‘w’ to give leader a specified velocity for flight in formation group. Until the drones achieve formation in group, press ‘f’ or ‘h’ to turn or press number 0-9 to change the formation when the drones are running.
-The baseline script is for comparison with formation script in performance of running straight line with variable velocity.
-5.bash run_formation_baseline.sh
-The following script is for plot the information of drones such as error,position and etc.
-6.python3 draw_figure.py
+1. Load worlds and drones.
+    `roslaunch multi_vehicle.launch'
+   
+3. Obtain the position information of drones. Replace 6 with the number in the name of the selected file folder.
+    `python3 get_local_pose.py iris 6'
+   
+5. Build the communication network among drones.
+    `bash multi_vehicle_communication.sh'
+   
+7. Keyboard control code.
+    `python3 multirotor_keyboard_control_promotion.py'
+    *Use the keyboard to control all drones to take off and press ‘s’ to hover after a desired height. Then press ‘g’ to enter leader control mode.
+   
+9. Run the DSLC code for formation control.
+    `bash run_formation_promotion.sh'
+   *Note: When the script is running, and the drones are in stationary, switch to the keyboard control terminal to press ‘w’ to give the leader a specified velocity. After the drones achieve the specified formation, press ‘f’ or ‘h’ to turn or press number 0-9 to change the formation when the drones are running.
+The baseline script is for comparison with the formation script in the performance of running a straight line with variable velocity.
+
+11. run the baseline controller for comparison.
+    `bash run_formation_baseline.sh'
+    
+13. Run the following script for the figure plot.
+    `python3 draw_figure.py'
 
 
 
