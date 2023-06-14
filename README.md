@@ -25,28 +25,40 @@ There is no dependency for `DSLC_training' in Matlab'. As for `DSLC_xtdrone', pl
 To run the code in this repository, follow the instructions below.
 
 1. Load worlds and drones.
-    `roslaunch multi_vehicle.launch'
+    ```bash
+    roslaunch multi_vehicle.launch
+      ```
    
 3. Obtain the position information of drones. Replace 6 with the number in the name of the selected file folder.
-    `python3 get_local_pose.py iris 6'
+    ```bash python3 get_local_pose.py iris 6
+      ```
    
 5. Build the communication network among drones.
-    `bash multi_vehicle_communication.sh'
+    ```bash
+    multi_vehicle_communication.sh
+      ```
    
 7. Keyboard control code.
-    `python3 multirotor_keyboard_control_promotion.py'
+    ```bash
+    python3 multirotor_keyboard_control_promotion.py
+      ```
     *Use the keyboard to control all drones to take off and press ‘s’ to hover after a desired height. Then press ‘g’ to enter leader control mode.
    
 9. Run the DSLC code for formation control.
-    `bash run_formation_promotion.sh'
+    ```bash run_formation_promotion.sh
+      ```
    *Note: When the script is running, and the drones are in stationary, switch to the keyboard control terminal to press ‘w’ to give the leader a specified velocity. After the drones achieve the specified formation, press ‘f’ or ‘h’ to turn or press number 0-9 to change the formation when the drones are running.
 The baseline script is for comparison with the formation script in the performance of running a straight line with variable velocity.
 
 11. run the baseline controller for comparison.
-    `bash run_formation_baseline.sh'
+    ```bash
+    run_formation_baseline.sh
+    ```
     
 13. Run the following script for the figure plot.
-    `python3 draw_figure.py'
+    ```bash
+    python3 draw_figure.py
+    ```
 
 
 
