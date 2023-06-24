@@ -3,7 +3,7 @@
 # Distributed Safe Learning Control for DMPC
 
 
-This repository contains material related to the project on `Distributed Safe Learning Control for DMPC'.  
+This repository contains material related to the project on `Distributed Safe Learning Control for DMPC`.  
 
 ## Table of Contents
 
