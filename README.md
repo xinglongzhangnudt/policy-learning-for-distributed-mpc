@@ -31,7 +31,8 @@ To run the code in this repository, follow the instructions below.
       ```
    
 3. Obtain the position information of drones. Replace 6 with the number in the name of the selected file folder.
-    ```bash python3 get_local_pose.py iris 6
+    ```bash
+    python3 get_local_pose.py iris 6
       ```
    
 5. Build the communication network among drones.
