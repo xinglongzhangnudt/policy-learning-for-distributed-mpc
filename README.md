@@ -15,6 +15,7 @@ The tutorials lead you through implementing the code files uploaded.
 * DSLC_xtdrone: Deploy the control policy to control a number of multirotor drones in the Gazebo. This part is based on XTDrone, PX4, and MAVROS, containing materials related to  [XTDrone project](https://github.com/robin-shaun/XTDrone/blob/master).
   * DSLC_xtdrone6: Control 6 multirotor drones to realize formation control and transformation.
   * DSLC_xtdrone18: Control 18 multirotor drones to realize formation control and transformation.
+* DSLC_solving_one_robot_control: Implement the code to solve the centralized control problem of one robot distributedly and compare it with the centralized version. The code is implemented in Matlab.
 
 ## Dependencies
 
