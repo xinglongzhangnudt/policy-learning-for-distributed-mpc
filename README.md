@@ -1,9 +1,9 @@
 
 
-# Distributed Safe Learning Control for DMPC
+# Distributed Safe Online Learning Control Project
 
 
-This repository contains material related to the project on `Distributed Safe Learning Control for DMPC`.  
+This repository contains material related to the project on `Distributed Safe Online Learning Control`.  
 
 ## Table of Contents
 
