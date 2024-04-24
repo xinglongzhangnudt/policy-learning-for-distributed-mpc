@@ -1,4 +1,4 @@
-# DSLC for distributedly solving centralized control: problem -- Policy Training
+# DLPC for distributedly solving centralized control: problem -- Policy Training
 
 ### Introduction
 
