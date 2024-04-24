@@ -46,7 +46,7 @@ To run the code in this repository, follow the instructions below.
       ```
     *Use the keyboard to control all drones to take off and press ‘s’ to hover after a desired height. Then press ‘g’ to enter leader control mode.
    
-7. Run the DSLC code for formation control.
+7. Run the DLPC code for formation control.
     ```bash
     run_formation_promotion.sh
       ```
