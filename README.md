@@ -1,9 +1,9 @@
 
 
-# Distributed Safe Online Learning Control Project
+# Distrbuted policy learning for DMPC Project
 
 
-This repository contains material related to the project on `Distributed Safe Online Learning Control`.  
+This repository contains material related to the project on `Distributed policy learning for DMPC`.  
 
 ## Table of Contents
 
@@ -11,15 +11,15 @@ This repository contains material related to the project on `Distributed Safe On
 
 The tutorials lead you through implementing the code files uploaded. 
 
-* DSLC_training: Implement the code to verify the convergence condition of actor-critic learning and the closed-stability condition under actor-critic learning in the receding horizon control framework. The code is implemented in Matlab.
-* DSLC_xtdrone: Deploy the control policy to control a number of multirotor drones in the Gazebo. This part is based on XTDrone, PX4, and MAVROS, containing materials related to  [XTDrone project](https://github.com/robin-shaun/XTDrone/blob/master). The code is implemented in Python. 
-  * DSLC_xtdrone6: Control 6 multirotor drones to realize formation control and transformation.
-  * DSLC_xtdrone18: Control 18 multirotor drones to realize formation control and transformation.
-* DSLC_solving_one_robot_control: Implement the code to solve the centralized control problem of one robot distributedly and compare it with the centralized version. The code is implemented in Matlab.
+* DLPC_training: Implement the code to verify the convergence condition of actor-critic learning and the closed-stability condition under actor-critic learning in the receding horizon control framework. The code is implemented in Matlab.
+* DLPC_xtdrone: Deploy the control policy to control a number of multirotor drones in the Gazebo. This part is based on XTDrone, PX4, and MAVROS, containing materials related to  [XTDrone project](https://github.com/robin-shaun/XTDrone/blob/master). The code is implemented in Python. 
+  * DLPC_xtdrone6: Control 6 multirotor drones to realize formation control and transformation.
+  * DLPC_xtdrone18: Control 18 multirotor drones to realize formation control and transformation.
+* DLPC_solving_one_robot_control: Implement the code to solve the centralized control problem of one robot distributedly and compare it with the centralized version. The code is implemented in Matlab.
 
 ## Dependencies
 
-There is no dependency for `DSLC_training` within Matlab. As for `DSLC_xtdrone`, please follow the instructions in [XTDrone project](https://github.com/robin-shaun/XTDrone/blob/master) to complete the environment installation and basic configuration.
+There is no dependency for `DLPC_training` within Matlab. As for `DLPC_xtdrone`, please follow the instructions in [XTDrone project](https://github.com/robin-shaun/XTDrone/blob/master) to complete the environment installation and basic configuration.
 
 ## Run DSLC_xtdrone
 
