@@ -21,7 +21,7 @@ The tutorials lead you through implementing the code files uploaded.
 
 There is no dependency for `DLPC_training` within Matlab. As for `DLPC_xtdrone`, please follow the instructions in [XTDrone project](https://github.com/robin-shaun/XTDrone/blob/master) to complete the environment installation and basic configuration.
 
-## Run DSLC_xtdrone
+## Run DLPC_xtdrone
 
 To run the code in this repository, follow the instructions below.
 
