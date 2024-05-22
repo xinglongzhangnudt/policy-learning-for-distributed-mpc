@@ -65,7 +65,7 @@ class Follower:
                 self.vel_enu_pub.publish(self.cmd_vel_enu)
 
             try:
-                rate.sleep()
+                rate.sleep() #
             except:
                 continue
 
