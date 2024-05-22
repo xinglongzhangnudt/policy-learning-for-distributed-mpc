@@ -16,6 +16,8 @@ The tutorials lead you through implementing the code files uploaded.
   * DLPC_xtdrone6: Control 6 multirotor drones to realize formation control and transformation.
   * DLPC_xtdrone18: Control 18 multirotor drones to realize formation control and transformation.
 * DLPC_solving_one_robot_control: Implement the code to solve the centralized control problem of one robot distributedly and compare it with the centralized version. The code is implemented in Matlab.
+* dlpc_online_train_scales_to_10000.py: The Python code for online training of DLPC.
+* dlpc_online_train_scales_to_10000.m: The matlab code for online training of DLPC.
 
 ## Dependencies
 
