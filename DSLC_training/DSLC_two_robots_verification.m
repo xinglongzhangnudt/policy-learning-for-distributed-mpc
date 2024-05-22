@@ -11,7 +11,7 @@ agent=2; % Set agent count to 2
 [ANN,ANN_u,ANN_x,CNN,CNN_x,state_bound] = createNetworks(agent); % Create network structures for each agent
 [State,R_State,V,NIError] =Initial_state_calculation_no_obs; % Compute the initial state
 J=[];J_1=[];J_1d=[]; % Preallocate memory for performance measurement
-flag1=0; % Flag used to indicate if an obstacle is too close
+flag1=0; % Flag used to indicate if an obstacle is too close  
 run=1;
 J=zeros(run,Iterations_num);
 const=0.1;
@@ -40,7 +40,7 @@ for k=1:ConHor_len:Iterations_num % Loop over control horizon
             c_input{i}=PresentError{i}./state_bound{i};
             end    
          
-            ANN{1}=NNProcess1(ANN{1},[c_input{1};c_input{2}]);%�?活函�?   
+            ANN{1}=NNProcess1(ANN{1},[c_input{1};c_input{2}]);%æ¿?æ´»å‡½æ•?   
             ANN{2}=NNProcess1(ANN{2},[c_input{2};c_input{1}]); %W_a*sigma_a
             
             for i=1:agent
@@ -81,8 +81,8 @@ for k=1:ConHor_len:Iterations_num % Loop over control horizon
             c_input_d{i}=PresentError_d{i}./state_bound{i};  
             end
             
-            ANN_d{1}=NNProcess1(ANN_d{1},[c_input_d{1};c_input_d{2}]);%�?活函�?   
-            ANN_d{2}=NNProcess1(ANN_d{2},[c_input_d{2};c_input_d{1}]);%�?活函�?   
+            ANN_d{1}=NNProcess1(ANN_d{1},[c_input_d{1};c_input_d{2}]);%æ¿?æ´»å‡½æ•?   
+            ANN_d{2}=NNProcess1(ANN_d{2},[c_input_d{2};c_input_d{1}]);%æ¿?æ´»å‡½æ•?   
             
             for i=1:agent
             u_v_d{i}=ANN_d{i}.NetworkOut;
