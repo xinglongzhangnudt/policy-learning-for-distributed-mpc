@@ -63,6 +63,6 @@ To run the code in this repository, follow the instructions below.
     python3 draw_figure.py
     ```
 ## Reference
-Please cite the following references:
+Please cite the following reference:
 
 [1] Xinglong Zhang, et al. "Toward Scalable Multirobot Control: Fast Policy Learning in Distributed MPC." IEEE Transactions on Robotics, 41 (2025).
