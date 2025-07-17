@@ -58,8 +58,11 @@ To run the code in this repository, follow the instructions below.
     ```bash
     run_formation_baseline.sh
     ```
-    
 9. Run the following script for the figure plot.
     ```bash
     python3 draw_figure.py
     ```
+## Reference
+Please cite the following references:
+
+[1] Xinglong Zhang, et al. "Toward Scalable Multirobot Control: Fast Policy Learning in Distributed MPC." IEEE Transactions on Robotics, 41 (2025).
